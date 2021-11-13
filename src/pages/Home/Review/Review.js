@@ -4,11 +4,12 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Typography from '@mui/material/Typography';
+import Rating from 'react-rating';
 
 
 
 const Review = (props) => {
-    const { name, description, img } = props.review;
+    const { name, description, img, star } = props.review;
 
     return (
         <Grid item xs={4} sm={4} md={4}>
@@ -29,6 +30,12 @@ const Review = (props) => {
                     <Typography variant="body2" color="text.secondary">
                         {description}
                     </Typography>
+                    <Rating style={{ color: '#ccaa44' }}
+                        initialRating={star}
+                        emptySymbol="far fa-star icon-color"
+                        fullSymbol="fas fa-star icon-color"
+                        readonly></Rating>
+                    <br />
                 </CardContent>
             </Card>
         </Grid>

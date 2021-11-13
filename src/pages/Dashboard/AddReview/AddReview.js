@@ -39,6 +39,8 @@ const AddReview = () => {
 
                 <input style={{ boxShadow: '3px 12px 13px gray', padding: 7, width: '50%', height: '80px', borderTop: 0, borderLeft: 0, borderRight: 0, marginBottom: 15 }}
                     {...register("description")} placeholder="Description" />
+                <input style={{ boxShadow: '3px 12px 13px gray', padding: 7, width: '50%', height: '80px', borderTop: 0, borderLeft: 0, borderRight: 0, marginBottom: 15 }}
+                    {...register("star")} placeholder="Rating(0-5)" />
 
                 <input style={{ boxShadow: '3px 12px 13px gray', padding: 7, width: '50%', height: '50px', borderTop: 0, borderLeft: 0, borderRight: 0, marginBottom: 15 }}
                     {...register("img")} placeholder="Image URL" />
