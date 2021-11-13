@@ -3,10 +3,13 @@ import Card from '@mui/material/Card';
 import CardMedia from '@mui/material/CardMedia';
 import CardContent from '@mui/material/CardContent';
 import Typography from '@mui/material/Typography';
-// import { Button } from '@mui/material';
 
-const MyOrder = ({ myOrder }) => {
-    const { name, price, img } = myOrder;
+
+
+const ManageProduct = ({ manageProduct }) => {
+
+    const { name, price, img } = manageProduct;
+
     return (
         <Card sx={{ width: '100%', height: '100%' }}>
             <CardMedia
@@ -23,10 +26,8 @@ const MyOrder = ({ myOrder }) => {
                 </Typography>
             </CardContent>
 
-            {/* <Button style={{ backgroundColor: '#622436', width: '30%' }} variant="contained">DELETE</Button> */}
-
         </Card>
     );
 };
 
-export default MyOrder;
+export default ManageProduct;
