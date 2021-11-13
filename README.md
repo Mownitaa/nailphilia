@@ -1,8 +1,16 @@
-# Getting Started with Create React App
+# Website name: Nailphilia
+#### this is a niche website containing different kind of nailpolish from where you can purchase your ones and also give your review about our products
+### Live website link: (https://nailphilia.web.app/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### different features and functionality
+* we have ur products section from where we can purchase and place our order
+* We have also enabled admin access system in dashboard
+* we have to login via email and password for some special route
+* in dashboard we can add product review which will be displayed in home page
+* an admin can make another on as admin but normal user can not
+* admin can also see some special routes which a normal user cannot see
 
-## Available Scripts
+
 
 In the project directory, you can run:
 
